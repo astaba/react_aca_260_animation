@@ -1,4 +1,4 @@
-import { createContext, useState } from 'react';
+import { createContext, useState } from "react";
 
 export const ChallengesContext = createContext({
   challenges: [],
@@ -11,7 +11,7 @@ export default function ChallengesContextProvider({ children }) {
 
   function addChallenge(challenge) {
     setChallenges((prevChallenges) => [
-      { ...challenge, id: Math.random().toString(), status: 'active' },
+      { ...challenge, id: Math.random().toString(), status: "active" },
       ...prevChallenges,
     ]);
   }

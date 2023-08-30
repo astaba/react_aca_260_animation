@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-import cityImg from '../assets/city.jpg';
-import heroImg from '../assets/hero.png';
+import cityImg from "../assets/city.jpg";
+import heroImg from "../assets/hero.png";
 
 export default function WelcomePage() {
   return (

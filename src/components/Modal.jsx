@@ -1,4 +1,4 @@
-import { createPortal } from 'react-dom';
+import { createPortal } from "react-dom";
 
 export default function Modal({ title, children, onClose }) {
   return createPortal(
@@ -9,6 +9,6 @@ export default function Modal({ title, children, onClose }) {
         {children}
       </dialog>
     </>,
-    document.getElementById('modal')
+    document.getElementById("modal")
   );
 }

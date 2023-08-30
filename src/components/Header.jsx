@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useState } from "react";
 
-import NewChallenge from './NewChallenge.jsx';
+import NewChallenge from "./NewChallenge.jsx";
 
 export default function Header() {
   const [isCreatingNewChallenge, setIsCreatingNewChallenge] = useState();
